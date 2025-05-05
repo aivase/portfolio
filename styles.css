@@ -15,7 +15,29 @@ body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;
 }
+body.dark-mode button {
+  background-color: #121212;
 
+}
+button {
+  all: unset;
+  background: none;
+  border-style: outset;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  border: 2px solid #444; /* Harmaa ohut raja */
+  border-radius: 4px; /* Pyöristetyt kulmat */
+}
+button:hover {
+  border-color: #121212;
+  ;
+  background-color: #444; /* Tumma tausta hover-tilassa */
+}
+body.dark-mode button:hover {
+  border-color: #ffd700; /* Rajasävyn vaihto hover-tilassa */
+  background-color: #444; /* Tumma tausta hover-tilassa */
+}
 header {
   display: flex;
   flex-direction: column;
