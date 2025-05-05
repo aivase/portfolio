@@ -35,13 +35,13 @@ nav {
   justify-content: center;
 }
 
-nav a {
+a {
   text-decoration: none;
   color: #444;
   font-weight: 500;
 }
 
-nav a:hover {
+a:hover {
   color: #000;
   text-decoration: underline;
 }
