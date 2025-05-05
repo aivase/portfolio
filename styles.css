@@ -14,13 +14,30 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  position: absolute;
+  right: 0;
 }
 
 nav a {
-  margin-left: 1.5rem;
   text-decoration: none;
   color: #444;
   font-weight: 500;
@@ -33,20 +50,20 @@ nav a:hover {
 
 section {
   max-width: 700px;
-  margin-bottom: 4rem;
+  margin: 0 auto 4rem auto;
 }
-h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #333;
-}
+
 h2 {
-        margin-bottom: 1rem;
-        font-weight: 600;
-        color: #444;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #444;
 }
 
 p {
   color: #555;
+}
+
+ul {
+  padding-left: 1.5rem;
 }
