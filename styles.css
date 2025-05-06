@@ -50,7 +50,11 @@ header {
   margin-bottom: 2rem;
   position: relative;
 }
-
+.helsinki-time {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -117,3 +121,4 @@ body.dark-mode ul {
 html {
   scroll-behavior: smooth;
 }
+
