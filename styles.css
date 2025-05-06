@@ -18,7 +18,6 @@ body.dark-mode {
 
 body.dark-mode button {
   background-color: #121212;
-
 }
 
 button {
@@ -52,9 +51,11 @@ header {
 }
 .helsinki-time {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: -1.25rem;
+    left: -1.25rem;
+
 }
+
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -121,4 +122,3 @@ body.dark-mode ul {
 html {
   scroll-behavior: smooth;
 }
-
